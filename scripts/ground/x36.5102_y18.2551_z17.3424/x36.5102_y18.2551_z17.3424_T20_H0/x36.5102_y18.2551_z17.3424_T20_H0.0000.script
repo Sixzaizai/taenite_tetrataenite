@@ -1,0 +1,16 @@
+ReadMesh 1 /multi-phase/results/taenite_tetrataenite/mesh/x36.5102_y18.2551_z17.3424/x36.5102_y18.2551_z17.3424.pat
+
+Set Ms 1273e3 
+Set Aex 1.13e-11 
+Set K1 1e3 
+Cubic Anisotropy 
+Randomize All Moments 
+External Field Strength 0 mT
+EnergyLog /multi-phase/results/taenite_tetrataenite/energy/ground/x36.5102_y18.2551_z17.3424/x36.5102_y18.2551_z17.3424_T20_H0/x36.5102_y18.2551_z17.3424_T20_H0.0000
+Minimize
+WriteHyst /multi-phase/results/taenite_tetrataenite/hyst/ground/x36.5102_y18.2551_z17.3424/x36.5102_y18.2551_z17.3424_T20_H0/x36.5102_y18.2551_z17.3424_T20_H0.0000
+WriteMagnetization /multi-phase/results/taenite_tetrataenite/domain/ground/x36.5102_y18.2551_z17.3424/x36.5102_y18.2551_z17.3424_T20_H0/x36.5102_y18.2551_z17.3424_T20_H0.0000
+CloseLog
+Set PathN 1
+MagnetizationToPath 1
+PathStructureEnergies /multi-phase/results/taenite_tetrataenite/energy/ground/x36.5102_y18.2551_z17.3424/x36.5102_y18.2551_z17.3424_T20_H0/x36.5102_y18.2551_z17.3424_T20_H0.0000.txt

@@ -1,0 +1,8 @@
+create sphere radius 0.1
+volume 1 scale x 0.0793701 y 0.039685 z 0.0377008 
+volume 1 scheme tetmesh
+volume 1 size 0.003
+mesh volume 1
+block 101 volume all
+block all element type TETRA4
+export patran "D:/multi-phase/results/taenite_tetrataenite/mesh/x7.93701_y3.9685_z3.77008/x7.93701_y3.9685_z3.77008.pat" overwrite
