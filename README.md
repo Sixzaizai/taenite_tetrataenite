@@ -6,4 +6,4 @@ This repository contains the scripts that were used to create the data.
 
 When using any of the code, figures or data, please cite the corresponding paper:
 
-Devienne, J. A. P. M., Berndt, T. A., Williams, W., Nagy, L. 2022. "Magnetic Recording Stability of Taenite-Containing Meteorites" Geophysical Research Letters, 	2022GL102602.
+Devienne, J. A. P. M., Berndt, T. A., Williams, W., & Nagy, L. (2023). Magnetic recording stability of taenite-containing meteorites. Geophysical Research Letters, 50, e2022GL102602. https://doi.org/10.1029/2022GL102602
